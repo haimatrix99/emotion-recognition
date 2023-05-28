@@ -1,7 +1,7 @@
 #!/bin/bash	
 
 start() {
-    streamlit run app.py 
+    python3 -m streamlit run app.py 
 }
 
 start

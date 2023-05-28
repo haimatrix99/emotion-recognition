@@ -1,6 +1,9 @@
+[server]
+port = 80
+
 [browser]
-serverAddress = "localhost"
-serverPort = 8501
+serverAddress = "0.0.0.0"
+serverPort = 80
 gatherUsageStats = false
 
 [ui] 
