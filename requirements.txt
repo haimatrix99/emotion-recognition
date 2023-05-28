@@ -1,0 +1,3 @@
+deepface
+streamlit
+streamlit-option-menu
