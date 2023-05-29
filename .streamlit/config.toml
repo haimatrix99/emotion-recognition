@@ -1,9 +1,11 @@
 [server]
-port = 80
+port = 443
+sslCertFile = "certs/fullchain.pem"
+sslKeyFile = "certs/privkey.pem"
 
 [browser]
 serverAddress = "0.0.0.0"
-serverPort = 80
+serverPort = 443
 gatherUsageStats = false
 
 [ui] 

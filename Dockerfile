@@ -11,7 +11,7 @@ COPY --chown=app:app . .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 80
+EXPOSE 80 443
 
 ENTRYPOINT [ "/bin/bash" ]
 
